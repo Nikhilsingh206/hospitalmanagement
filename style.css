@@ -1,0 +1,18 @@
+p{
+    color:red
+}
+.container{
+    border: 2px;
+    border-color: black;
+    border-radius: 1%;
+}
+.divider{
+    align-items: center;
+}
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
