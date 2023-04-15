@@ -658,6 +658,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+
 }
 
 /*--------------------------------------------------------------
@@ -746,6 +747,9 @@ section {
   transition: all 0.3s;
   z-index: -1;
 }
+.featured-services p{
+  color: #111;
+}
 
 .featured-services .icon-box:hover::before {
   background: #3fbbc0;
@@ -802,7 +806,9 @@ section {
   font-size: 28px;
   font-weight: 700;
 }
-
+.cta p{
+  color: #111;
+}
 .cta .cta-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -846,6 +852,9 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+.about .content p{
+  color: #111;
 }
 
 /*--------------------------------------------------------------
